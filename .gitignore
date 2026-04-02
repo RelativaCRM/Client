@@ -1,48 +1,39 @@
-# Node
-node_modules/
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
-# Build outputs
-dist/
-build/
-.vite/
-
-# Environment variables
-.env
-.env.*
-!.env.example
-
-# Logs
-logs
-*.log
-
-# OS
+node_modules
 .DS_Store
-Thumbs.db
+dist
+dist-ssr
+coverage
+*.local
 
-# IDEs / Editors
-.vscode/
-.idea/
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
+*.sw?
 
-# Testing
-coverage/
+*.tsbuildinfo
 
-# Cache
-.cache/
 .eslintcache
 
-# Temporary files
-*.tmp
-*.temp
+# Cypress
+/cypress/videos/
+/cypress/screenshots/
 
-# Lock files (опційно, залежить від політики команди)
-# package-lock.json
-# yarn.lock
-# pnpm-lock.yaml
+# Vitest
+__screenshots__/
+
+# Vite
+*.timestamp-*-*.mjs
